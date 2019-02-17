@@ -81,58 +81,6 @@ $(document).ready(function() {
     });
   });
 
-/*Meesaya*/
-
-  SC.stream('/tracks/650343384', function(sound) {
-    $('#startme7').click(function(e) {
-      e.preventDefault();
-      sound.start();
-    });
-    $('#stopme7').click(function(e) {
-      e.preventDefault();
-      sound.stop();
-    });
-  });
-
-
-
-  SC.stream('/tracks/541906656', function(sound) {
-    $('#start8').click(function(e) {
-      e.preventDefault();
-      sound.start();
-    });
-    $('#stop8').click(function(e) {
-      e.preventDefault();
-      sound.stop();
-    });
-  });
-
-/* JANAM */
-  SC.stream('/tracks/345946410', function(sound) {
-    $('#startme9').click(function(e) {
-      e.preventDefault();
-      sound.start();
-    });
-    $('#stopme9').click(function(e) {
-      e.preventDefault();
-      sound.stop();
-    });
-  });
-
-/* Neethane Neethane*/
-
-  SC.stream('/tracks/340155138', function(sound) {
-    $('#start10').click(function(e) {
-      e.preventDefault();
-      sound.start();
-    });
-    $('#stop10').click(function(e) {
-      e.preventDefault();
-      sound.stop();
-    });
-  });
-
-
 /*////////////////// 2nd row /////////////////////*/
 
   SC.stream('/tracks/168165031', function(sound) {
